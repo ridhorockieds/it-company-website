@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'sans':'Raleway'
+      },
+      colors:{
+        primary:'#0E1F51',
+        secondary:'#FF3E54',
+        accent:'#ffdfe3',
+      },
+      backgroundImage:{
+        'quote':"url('/assets/quote.png)",
+      }
+    },
   },
   plugins: [],
 }
